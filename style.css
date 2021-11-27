@@ -1,0 +1,18 @@
+* {
+  background-image: url(../images/background.jpg);
+
+  margin: 0;
+  padding: 0;
+}
+
+/* .wrapper {
+  margin: 0 auto;
+  width: 1000px;
+} */
+
+.box {
+  /* background-image: url(../images/background.jpg);
+  background-position: 100%; */
+  padding: 100px;
+  margin: 100px;
+}
