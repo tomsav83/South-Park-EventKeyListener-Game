@@ -1,18 +1,125 @@
 * {
-  background-image: url(../images/background.jpg);
-
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* .wrapper {
-  margin: 0 auto;
-  width: 1000px;
-} */
+h1 {
+  font-family: cursive;
+  font-size: xx-large;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#home {
+  display: flex;
+  
+}
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('/images/background.jpg') no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
 
 .box {
-  /* background-image: url(../images/background.jpg);
-  background-position: 100%; */
-  padding: 100px;
-  margin: 100px;
+  font-size: larger;
+  font-family: cursive;
+  text-indent: 20px;
+  text-align: center;
+  color: whitesmoke;
 }
+
+#keys {
+  font-family: cursive;
+  color: white;
+  transition: all 0.07s;
+}
+
+.playing {
+  font-family: cursive;
+  color: black;
+  transition: all 0.07s;
+
+}
+
+
+.bono {
+  position: relative;
+  top: 220px;
+  left: 200px;
+}
+.bono1 {
+  position: relative;
+  top: 230px;
+  left: 251px;
+}
+
+.mj {
+  position: relative;
+  top: 240px;
+  left: 200px;
+}
+.mj1 {
+  position: relative;
+  top: 3px;
+  left: 152px;
+}
+
+.honeybooboo {
+  position: relative;
+  top: 170px;
+  left: 230px;
+}
+.honeybooboo1 {
+  position: relative;
+  top: -80px;
+  left: 163px;
+}
+
+.travolta {
+  position: relative;
+  top: 200px;
+  left: 250px;
+}
+
+.travolta1 {
+  position: relative;
+  top: 8px;
+  left: 151px;
+}
+.kanye {
+  position: relative;
+  top: 300px;
+  left: 270px;
+}
+.kanye1 {
+  position: relative;
+  top: 75px;
+  left: 197px;
+}
+
+.lorde {
+  position: relative;
+  top: 190px;
+  left: 290px;
+}
+.lorde1 {
+  position: relative;
+  top: -125px;
+  left: 215px;
+}
+
+.stallone {
+  position: relative;
+  top: 220px;
+  left: 350px;
+}
+.stallone1 {
+  position: relative;
+  top: -115px;
+  left: 417px
