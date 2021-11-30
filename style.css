@@ -20,7 +20,7 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  background: url('/images/background.jpg') no-repeat center center/cover;
+  background: url('./images/background.jpg') no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
@@ -122,4 +122,6 @@ h1 {
 .stallone1 {
   position: relative;
   top: -115px;
-  left: 417px
+  left: 417px;
+
+  
